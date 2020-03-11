@@ -37,30 +37,31 @@
         <h3>Qual o tipo de espaço escolhido para o evento?</h3>
         <p>
         
-        <input type="checkbox" value="chacara" id="espacoChacara">
+        <input type="checkbox" value="chacara" id="espacoChacara" name="chacara">
         <label for="espacoChacara">Chacára</label>
 
-        <input type="checkbox" value="salao" id="espacoSalao">
+        <input type="checkbox" value="salao" id="espacoSalao" name="salao">
         <label for="espacoSalao">Salão</label>
 
         </p>
 
         <p>
         <label for="totalPessoas">Quantidade de pessoas</label>
-        <input type="number" value="qntdPessoas" id="totalPessoas">
+        <input type="number" value="qntdPessoas" id="totalPessoas" name="qntdPessoas">
         </p>
 
         <p>
         <h3>Quais serviçoes deseja utilizar?</h3>
 
+        <input type="checkbox" value="cerimonial" id="servicoCerimonial" name="cerimonial">
         <label for="servicoCerimonial">Cerimonial</label>
-        <input type="checkbox" value="cerimonial" id="servicoCerimonial">
-
+        
+        <input type="checkbox" value="buffet" id="servicoBuffet" name="buffet">
         <label for="servicoBuffet">Buffet</label>
-        <input type="checkbox" value="buffet" id="servicoBuffet">
-
+        
+        <input type="checkbox" value="decoracao" id="servicoDecoracao" name="decoracao">
         <label for="servicoDecoracao">Decoração</label>
-        <input type="checkbox" value="decoracao" id="servicoDecoracao">
+        
         </p>
 
         
@@ -85,6 +86,8 @@
         
 
         </fieldset>
+
+        <input type="submit" value="Enviar pedido de orçamento"> 
     </form>
 </body>
 </html>
